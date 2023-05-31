@@ -2,7 +2,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/alexjuniorarruda/Toughts/blob/main/LICENSE)
 
 # Sobre o projeto
-Toughts é uma aplicação fullstack que te permite gerenciar pensamentos, nele você tem o seu próprio login, onde através desse login você pode criar os seus próprios pensamentos assim como também editar ou excluir esses pensamentos. Você também pode ver os pensamentos que as outras pessoas escreveram, e também buscar por pensamentos específicos ou mais comuns usando palavras chave.
+Toughts é uma aplicação fullstack que te permite gerenciar pensamentos, nele você tem o seu próprio login, onde através desse login você pode criar os seus próprios pensamentos assim como também editar ou excluir esses pensamentos. Você também pode ver os pensamentos que as outras pessoas escreveram, ordernar esses pensamentos, e também buscar por pensamentos específicos ou mais comuns usando palavras chave.
 
 # Layout da aplicação
 ## Pensamentos
@@ -16,3 +16,46 @@ Toughts é uma aplicação fullstack que te permite gerenciar pensamentos, nele 
 
 ## Dashboard
 ![dashboard](https://github.com/alexjuniorarruda/Toughts/assets/112874423/6493faca-f9af-4475-9f18-ef22fc77d777)
+
+# Tecnologias utilizadas
+## Back-end
+- JavaScript
+- Node.js
+- NPM
+- MySQL
+
+## Front-end
+- HTML / CSS
+
+## Dependências
+- Bcryptjs
+- Connect-flash
+- Cookie-parser
+- Cookie-session
+- Express
+- Express-flash
+- Express-handlebars
+- Express-session
+- Mysql2
+- Sequelize
+- Session-file-store
+- Nodemon
+
+# Como executar o projeto
+- Pré-requisitos: Node.js, npm e MySQL
+
+```bash
+# fazer download do repositório
+# trocar a senha do root que está definida como teste em
+./db/conn.js
+
+# abrir o projeto no terminal
+# executar o projeto
+npm start
+```
+
+# Autor
+
+Alex Junior Arruda
+
+https://www.linkedin.com/in/alex-jr-arruda/
